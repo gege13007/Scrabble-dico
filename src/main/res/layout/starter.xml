@@ -1,0 +1,23 @@
+<ViewSwitcher xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/stratscreen"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:animateLayoutChanges="false"
+    android:inAnimation="@anim/fade_in"
+    android:keepScreenOn="true"
+    android:outAnimation="@anim/fade_out"
+    android:scrollbars="none">
+
+    <ImageView
+        android:id="@+id/startimg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/scrabble_dico320" />
+
+    <ImageView
+        android:id="@+id/blackimg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000" />
+</ViewSwitcher>
